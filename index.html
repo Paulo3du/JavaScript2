@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var numero1 = parseInt(prompt("Digite o primeiro numero: "));
+            var numero2 = parseInt(prompt("Digite o segundo numero: "));
+            var operador = prompt("Digite a operação: ");
+            var resultado = 0;
+
+            if(operador === '+'){
+                resultado = numero1 + numero2;
+            } else if (operador === '-'){
+                resultado = numero1 - numero2;
+            } else if (operador === '*'){
+                resultado = numero1 * numero2;
+            } else if (operador === '/'){
+                resultado = numero1 / numero2;
+            }
+
+            alert("O resultado é "+resultado);
+        </script>
+    </head>
+</html>
